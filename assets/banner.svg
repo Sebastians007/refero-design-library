@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0007cb"/>
+      <stop offset="50%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#f1eee9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#g)"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="80" y="130" font-size="72" font-weight="700" fill="#ffffff">Refero DESIGN.md Library</text>
+    <text x="80" y="190" font-size="30" fill="#f1eee9">100 real design systems · one spec each · a playbook for AI</text>
+    <text x="80" y="250" font-size="22" fill="#dedbd6">Pick a style · point your AI at it · ship something better</text>
+  </g>
+</svg>
