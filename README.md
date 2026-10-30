@@ -37,6 +37,16 @@ flowchart LR
     H --> I[Ship]
 ```
 
+## Ask your AI to use it
+
+Point your AI at this repo and ask for what you want, for example:
+
+> "Audit my landing page at ./site and give me ranked recommendations using this library."
+> "Make my deck look 10x better using whichever style fits."
+> "Restyle this app to feel like a premium developer tool."
+
+Your AI will start with **[AGENTS.md](AGENTS.md)**, shortlist from **[styles.json](styles.json)**, and apply the chosen **DESIGN.md** following **[GUIDE-FOR-AI.md](GUIDE-FOR-AI.md)**.
+
 ## Start here
 
 1. **Pick a style.** Browse the index below. Light and dark themes are noted. Mood is a one-line summary.
@@ -173,6 +183,9 @@ Full instructions: **[GUIDE-FOR-AI.md](GUIDE-FOR-AI.md)**.
 ```
 refero-design-library/
 ├── README.md            ← you are here
+├── AGENTS.md            ← entry point for any AI: classify, shortlist, audit, recommend, apply
+├── CLAUDE.md            ← points Claude Code at AGENTS.md
+├── styles.json          ← machine-readable index of every style
 ├── GUIDE-FOR-AI.md      ← full guide for agents: how to apply any style to anything
 ├── designs/             ← one DESIGN.md per style (100 files)
 └── .gitignore
